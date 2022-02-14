@@ -30,7 +30,7 @@ const middle = (arr) => {
   if (arr.length % 2 === 0) {
     output.push(arr[center - 1], arr[center]);
   } else {
-    output.push(arr[center], arr[center]);
+    output.push(arr[center]);
   }
   return output;
 };
